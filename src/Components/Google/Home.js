@@ -3,7 +3,13 @@ import "./Home.css"
 import google_img from './images/google.png'
 import search from './images/search-icon.png'
 import mic from './images/google_mic_icon.png'
-
+import amazon_icon from "./images/amazon_icon.png"
+import youtube_icon from "./images/youtube_icon.png"
+import whatsapp_icon from "./images/whatsapp_icon.png"
+import spotify_icon from "./images/spotify_icon.png"
+import more_icon from "./images/more_icon.png"
+import chatgpt_icon from "./images/chatgpt_icon.png"
+import { Link } from 'react-router-dom'
 export default function Home() {
 
   const [showSug,setShowSug]= useState(false)
@@ -15,19 +21,31 @@ export default function Home() {
           <img id='google' src={google_img}/>
           <div id='search'>
             <img id='search-icon' src={search}/>
-            <input id='input' type='search' onFocus={()=> setShowSug(true)} onBlur={()=>setShowSug(false)}></input>
+            <input id='input' placeholder='Search Google or type a URL' type='search' onFocus={()=> setShowSug(true)} onBlur={()=>setShowSug(false)}></input>
             <img id='mic-icon' src={mic}/>
           </div>
           <div className={`suggestions ${showSug?"showsug":""}`}>
           </div>
-          {/* <div id='links'>
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
-            <p>4</p>
-            <p>5</p>
-            <p>6</p>
-          </div> */}
+          <div id='links'>
+            <div className='link-containers'>
+                <img className='icons' src={amazon_icon}/><p><Link to="/amazon">Amazon</Link></p>
+            </div>
+            <div className='link-containers'>
+                <img className='icons' src={chatgpt_icon}/><p><Link to="/chatgpt">Chatgpt</Link></p>
+            </div>
+            <div className='link-containers'>
+                <img className='icons' src={spotify_icon}/><p><Link to="/spotify">Spotify</Link></p>
+            </div>
+            <div className='link-containers'>
+                <img className='icons' src={whatsapp_icon}/><p><Link to="/whatsapp">Whatsapp</Link></p>
+            </div>
+            <div className='link-containers'>
+                <img className='icons' src={youtube_icon}/><p><Link to="/youtube">Youtube</Link></p>
+            </div>
+            <div className='link-containers'>
+                <img className='icons' src={more_icon}/><p>More</p>
+            </div>
+          </div>
       </div>
     </div>
   )
