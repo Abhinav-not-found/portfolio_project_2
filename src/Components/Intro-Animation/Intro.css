@@ -1,0 +1,99 @@
+
+.cd-intro-content h1,
+.cd-intro-content p,
+.cd-intro-content .cd-btn {
+  opacity: 0;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+.cd-intro{
+    text-align: center;
+    background-color: #2e416a;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1005%26quot%3b)' fill='none'%3e%3ccircle r='46.666666666666664' cx='631.49' cy='76.78' stroke='%23e73635' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/circle%3e%3cpath d='M756.44 17.54a5.6 5.6 0 1 0 4.11-10.42 5.6 5.6 0 1 0-4.11 10.42zM762.31 2.66a5.6 5.6 0 1 0 4.11-10.42 5.6 5.6 0 1 0-4.11 10.42zM768.19-12.22a5.6 5.6 0 1 0 4.11-10.42 5.6 5.6 0 1 0-4.11 10.42zM774.06-27.11a5.6 5.6 0 1 0 4.11-10.42 5.6 5.6 0 1 0-4.11 10.42zM759.58 53.18a5.6 5.6 0 1 0 4.11-10.42 5.6 5.6 0 1 0-4.11 10.42zM765.45 38.3a5.6 5.6 0 1 0 4.11-10.42 5.6 5.6 0 1 0-4.11 10.42zM771.33 23.42a5.6 5.6 0 1 0 4.11-10.42 5.6 5.6 0 1 0-4.11 10.42zM777.2 8.53a5.6 5.6 0 1 0 4.11-10.42 5.6 5.6 0 1 0-4.11 10.42z' stroke='%23d3b714' stroke-width='2.17' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3cpath d='M1436.11 408.21999999999997 L1460.9099999999999 398.80999999999995L1465.3336348050507 420.3386348050509z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M298.84 256.98L302.39 244.67 315.17 245.44 318.73 233.13 331.51 233.9 335.06 221.59 347.84 222.36M303.46 263.51L307.01 251.21 319.79 251.97 323.34 239.67 336.13 240.43 339.68 228.13 352.46 228.89M308.07 270.04L311.62 257.74 324.41 258.5 327.96 246.2 340.74 246.96 344.29 234.66 357.08 235.42' stroke='%23037b0b' stroke-width='1.66' stroke-dasharray='3%2c 3'%3e%3c/path%3e%3cpath d='M1086.06 500.62L1096.99 493.95 1105.9 503.15 1116.83 496.48 1125.74 505.68 1136.67 499 1145.58 508.2M1085.05 508.56L1095.98 501.88 1104.89 511.08 1115.82 504.41 1124.73 513.61 1135.66 506.94 1144.57 516.14' stroke='%23e73635' stroke-width='1'%3e%3c/path%3e%3cpath d='M309.18 0.25L300.61 9.77 289.44 3.5 280.87 13.02 269.71 6.75 261.14 16.27 249.97 10M307.88-7.64L299.31 1.87 288.14-4.4 279.57 5.12 268.41-1.15 259.84 8.37 248.67 2.1M306.58-15.54L298.01-6.02 286.84-12.29 278.27-2.77 267.11-9.04 258.54 0.48 247.37-5.79' stroke='%23037b0b' stroke-width='2.43' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3crect width='108.4' height='108.4' clip-path='url(%26quot%3b%23SvgjsClipPath1006%26quot%3b)' x='132.05' y='-5.7' fill='url(%26quot%3b%23SvgjsPattern1007%26quot%3b)' transform='rotate(359.18%2c 186.25%2c 48.5)'%3e%3c/rect%3e%3cpath d='M843.52 310.61 L828.7900000000001 434.73L901.1526313117284 437.66763131172854z' fill='%23e73635'%3e%3c/path%3e%3ccircle r='50.04743172322206' cx='965.3' cy='56.38' fill='%23037b0b'%3e%3c/circle%3e%3cpath d='M1300.68 331.92a5.6 5.6 0 1 0-6.48 9.13 5.6 5.6 0 1 0 6.48-9.13zM1291.42 344.97a5.6 5.6 0 1 0-6.48 9.13 5.6 5.6 0 1 0 6.48-9.13zM1282.16 358.02a5.6 5.6 0 1 0-6.48 9.13 5.6 5.6 0 1 0 6.48-9.13zM1272.91 371.07a5.6 5.6 0 1 0-6.48 9.13 5.6 5.6 0 1 0 6.48-9.13zM1306.14 296.56a5.6 5.6 0 1 0-6.48 9.14 5.6 5.6 0 1 0 6.48-9.14zM1296.88 309.61a5.6 5.6 0 1 0-6.48 9.14 5.6 5.6 0 1 0 6.48-9.14zM1287.63 322.66a5.6 5.6 0 1 0-6.48 9.14 5.6 5.6 0 1 0 6.48-9.14zM1278.37 335.71a5.6 5.6 0 1 0-6.48 9.14 5.6 5.6 0 1 0 6.48-9.14zM1311.61 261.2a5.6 5.6 0 1 0-6.48 9.14 5.6 5.6 0 1 0 6.48-9.14zM1302.35 274.25a5.6 5.6 0 1 0-6.48 9.14 5.6 5.6 0 1 0 6.48-9.14zM1293.09 287.3a5.6 5.6 0 1 0-6.48 9.14 5.6 5.6 0 1 0 6.48-9.14zM1283.83 300.35a5.6 5.6 0 1 0-6.48 9.14 5.6 5.6 0 1 0 6.48-9.14z' stroke='%23e73635' stroke-width='1.63'%3e%3c/path%3e%3crect width='128' height='128' clip-path='url(%26quot%3b%23SvgjsClipPath1008%26quot%3b)' x='779.85' y='91.43' fill='url(%26quot%3b%23SvgjsPattern1009%26quot%3b)' transform='rotate(32.6%2c 843.85%2c 155.43)'%3e%3c/rect%3e%3cpath d='M480.49 248.83L482.46 261.48 470.55 266.18 472.52 278.84 460.61 283.54 462.58 296.19 450.67 300.89M473.55 244.85L475.52 257.51 463.61 262.21 465.58 274.86 453.67 279.56 455.64 292.21 443.73 296.91' stroke='%23037b0b' stroke-width='1.95' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1005'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='10.84' height='10.84' patternUnits='userSpaceOnUse' id='SvgjsPattern1007'%3e%3cpath d='M5.42 1L5.42 9.84M1 5.42L9.84 5.42' stroke='%23037b0b' fill='none' stroke-width='1.53'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1006'%3e%3ccircle r='27.1' cx='186.25' cy='48.5'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='12.8' height='12.8' patternUnits='userSpaceOnUse' id='SvgjsPattern1009'%3e%3cpath d='M6.4 1L6.4 11.8M1 6.4L11.8 6.4' stroke='%23037b0b' fill='none' stroke-width='4.61'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1008'%3e%3ccircle r='32' cx='843.85' cy='155.43'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+}
+h1{
+    font-size: 50px;
+}
+section div div a{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #FB5E58;
+    color: white;
+    text-decoration: none;
+}
+section div div{
+    margin-top: 20px;
+}
+.bouncy.cd-intro-content h1 {
+  animation-name: cd-bounce-right;
+}
+
+.bouncy.cd-intro-content p {
+  animation-name: cd-bounce-left;
+}
+
+.bouncy.cd-intro-content h1,
+.bouncy.cd-intro-content p {
+  animation-duration: 0.6s;
+}
+
+.bouncy.cd-intro-content .cd-btn {
+  animation-name: cd-bounce-rotate;
+  animation-duration: 0.5s;
+}
+
+.bouncy.cd-intro-content .cd-btn.main-action {
+  animation-delay: 0.4s;
+}
+
+@keyframes cd-bounce-right {
+  0% {
+    opacity: .2;
+    transform: translateX(-200px);
+  }
+  60% {
+    opacity: .7;
+    transform: translateX(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes cd-bounce-left {
+  0% {
+    opacity: .2;
+    transform: translateX(200px);
+  }
+  60% {
+    opacity: .7;
+    transform: translateX(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes cd-bounce-rotate {
+  0% {
+    opacity: .2;
+    transform: perspective(800px) rotateX(-80deg);
+  }
+  20% {
+    opacity: 1;
+  }
+  60% {
+    transform: perspective(800px) rotateX(20deg);
+  }
+  100% {
+    opacity: 1;
+    transform: perspective(800px) rotateX(0);
+  }
+}
