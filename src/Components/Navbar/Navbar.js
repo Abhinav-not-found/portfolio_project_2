@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import './Navbar.css';
 import Ninedots_icon from './Images/nine-dots.svg';
 import Profile_pic from './Images/Profilepic.jpg';
-
+import { Link } from 'react-router-dom';
 export default function Navbar() {
   const [pro, setPro] = useState(false);
   const [dot, setDot] = useState(false);
@@ -44,7 +44,8 @@ export default function Navbar() {
     <div>
       <nav id="nav">
         <ul id="list">
-          <li>Projects</li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
           <li>Images</li>
           <li onClick={handleDotClick} ref={dotRef}>
             <img id="nine_dots" src={Ninedots_icon} alt="nine dots" />
