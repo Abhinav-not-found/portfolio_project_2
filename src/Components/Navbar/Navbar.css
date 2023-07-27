@@ -1,0 +1,31 @@
+@use postcss-preset-env;
+#nav{
+    /* background-color: red; */
+}
+#list{
+    /* list-style: none;
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 1rem;
+    gap: 2rem; */
+}
+#nine_dots{
+    height: 100px;
+    width:  100px;
+
+}
+#profile{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+#profile img{
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+}
