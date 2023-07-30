@@ -1,6 +1,4 @@
-#nav{
-    /* background-color: red; */
-}
+
 #list{
     list-style: none;
     height: 50px;
@@ -72,7 +70,7 @@ nav ul li:hover{
 }
 #profile-inside{
     background-color: white;
-    height: 160px;
+    height: 145px;
     width: 400px;
     position: relative;
     border-radius: 25px 25px 5px 5px;
@@ -80,8 +78,10 @@ nav ul li:hover{
 #profile-container{
     display: flex;
     padding: 10px;
+    /* padding-bottom: 0; */
     /* background-color: red; */
     height: 70px;
+
 }
 #profile-image{
     display: block;
