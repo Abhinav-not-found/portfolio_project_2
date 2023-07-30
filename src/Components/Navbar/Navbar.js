@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Navbar.css';
+import github_icon from "./Images/github.png"
+import linkedin_icon from "./Images/linkedin.png"
 import Ninedots_icon from './Images/nine-dots.svg';
 import Profile_pic from './Images/Profilepic.jpg';
 import { Link } from 'react-router-dom';
@@ -56,10 +58,41 @@ export default function Navbar() {
         </ul>
       </nav>
       <div className={`dot-info ${dot ? 'dot' : ''}`}>
-        hello there
+        Apps
       </div>
       <div className={`profile-info ${pro ? 'pro' : ''}`}>
-        hello
+        <div id='profile-inside'>
+          <div id='profile-container'>
+                <img id='profile-image' alt="avatar" src={Profile_pic} />
+                <div id='profile-text-info'>
+                    <p id='abhinavkumar'>Abhinav kumar</p>
+                    <p id='abhinav-email'>abhinavisgreat18@gmail.com</p>
+                </div>
+          </div>
+          <div id='btn-container'>
+            <Link to='/form'><button id='reach-me'>Reach Me </button></Link>
+          </div>
+        </div>
+        <div id='link-inside'>
+          <a href='https://github.com/Abhinav-not-found'>
+          <div id='github'>
+            <img id='github_icon' src={github_icon}/>
+            <div id='github-text-info'>
+              <p>Github</p>
+              <p id='small-text'>Abhinav-not-found</p>
+            </div>
+          </div>
+              </a>
+          <a href='https://www.linkedin.com/in/abhinav-kumar-not-found/'>
+          <div id='linkedin'>
+            <img id='linkedin_icon' src={linkedin_icon}/>
+            <div id='linkedin-text-info'>
+              <p>Linkedin</p>
+              <p id='small-text'>Abhinav-not-found</p>
+            </div>
+          </div>
+            </a>
+        </div>
       </div>
     </div>
   );

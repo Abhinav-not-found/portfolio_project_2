@@ -1,4 +1,3 @@
-@use postcss-preset-env;
 #nav{
     /* background-color: red; */
 }
@@ -44,7 +43,7 @@ nav ul li:hover{
     cursor: pointer;
 }
 .profile-info{
-    background-color: white;
+    background-color: rgb(245, 248, 255);
     height: 400px;
     width: 400px;
     position: absolute;
@@ -70,4 +69,105 @@ nav ul li:hover{
 }
 .dot{
     display: block;
+}
+#profile-inside{
+    background-color: white;
+    height: 160px;
+    width: 400px;
+    position: relative;
+    border-radius: 25px 25px 5px 5px;
+}
+#profile-container{
+    display: flex;
+    padding: 10px;
+    /* background-color: red; */
+    height: 70px;
+}
+#profile-image{
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+    width: auto;
+    mask-image: radial-gradient(circle, black 50%, transparent 50%);
+    mask-position: center center;
+    margin-left: -20px;
+}
+#profile-text-info{
+    margin-left: -40px;
+    padding-top: 10px;
+    padding-right: 80px;
+}
+#abhinavkumar{
+    font-weight: 500;
+}
+#abhinav-email{
+    color: grey;
+}
+#btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#reach-me{
+    cursor: pointer;
+    font-weight: 600;
+    padding: 10px 50px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#reach-me:hover{
+    background-color: rgb(235, 235, 235);
+}
+#link-inside{
+    margin-top: 2px;
+    background-color: white;
+    height: 160px;
+    width: 400px;
+    position: relative;
+    border-radius: 5px 5px 25px 25px;
+}
+#github{
+    /* background-color: red; */
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+}
+#github:hover{
+    background-color:  rgb(235, 235, 235);
+    cursor: pointer;
+}
+#github_icon{
+    display: block;
+    height: 40px;
+    width: auto;
+}
+#github-text-info{
+    margin-left: 10px;
+}
+#small-text{
+    color: grey;
+    font-size: 13px;
+}
+#linkedin{
+    padding: 10px 30px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5%;
+}
+#linkedin:hover{
+     background-color:  rgb(235, 235, 235);
+    cursor: pointer;
+}
+#linkedin_icon{
+    display: block;
+    height: 40px;
+    width: auto;
+}
+#linkedin-text-info{
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
 }
