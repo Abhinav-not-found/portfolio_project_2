@@ -93,15 +93,17 @@ nav ul li:hover{
     margin-left: -20px;
 }
 #profile-text-info{
-    margin-left: -40px;
+    /* background-color: red; */
+    margin-left: -10px;
     padding-top: 10px;
-    padding-right: 80px;
+    padding-right: 110px;
 }
 #abhinavkumar{
     font-weight: 500;
 }
 #abhinav-email{
     color: grey;
+    font-size: 15px;
 }
 #btn-container{
     display: flex;
@@ -132,19 +134,26 @@ nav ul li:hover{
     padding: 10px 30px;
     display: flex;
     justify-content: flex-start;
-    gap: 5%;
+    gap: 8%;
 }
 #github:hover{
-    background-color:  rgb(235, 235, 235);
+    background-color:   rgb(222, 231, 245);
     cursor: pointer;
 }
 #github_icon{
     display: block;
     height: 40px;
     width: auto;
+    margin-left: 1px;
 }
 #github-text-info{
     margin-left: 10px;
+}
+#text-github{
+    color: black;
+}
+#text-linkedin{
+    color: black;
 }
 #small-text{
     color: grey;
@@ -154,20 +163,22 @@ nav ul li:hover{
     padding: 10px 30px;
     display: flex;
     justify-content: flex-start;
-    gap: 5%;
+    gap: 8%;
 }
 #linkedin:hover{
-     background-color:  rgb(235, 235, 235);
+    background-color:  rgb(222, 231, 245);
     cursor: pointer;
 }
 #linkedin_icon{
     display: block;
     height: 40px;
     width: auto;
+    margin-left: 1px;
 }
 #linkedin-text-info{
     margin-left: 10px;
 }
 a{
     text-decoration: none;
+    color: bal;
 }
