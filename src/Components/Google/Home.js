@@ -27,21 +27,11 @@ export default function Home() {
           <div className={`suggestions ${showSug?"showsug":""}`}>
           </div>
           <div id='links'>
-            <div className='link-containers'>
-                <img className='icons' src={amazon_icon}/><p><Link to="/amazon">Amazon</Link></p>
-            </div>
-            <div className='link-containers'>
-                <img className='icons' src={chatgpt_icon}/><p><Link to="/chatgpt">Chatgpt</Link></p>
-            </div>
-            <div className='link-containers'>
-                <img className='icons' src={spotify_icon}/><p><Link to="/spotify">Spotify</Link></p>
-            </div>
-            <div className='link-containers'>
-                <img className='icons' src={whatsapp_icon}/><p><Link to="/whatsapp">Whatsapp</Link></p>
-            </div>
-            <div className='link-containers'>
-                <img className='icons' src={youtube_icon}/><p><Link to="/youtube">Youtube</Link></p>
-            </div>
+            <Link to="/amazon"><div className='link-containers'><img className='icons' src={amazon_icon}/><p>Amazon</p></div></Link>
+            <Link to="/chatgpt"><div className='link-containers'><img className='icons' src={chatgpt_icon}/><p>Chatgpt</p></div></Link>
+            <Link to="/spotify"><div className='link-containers'><img className='icons' src={spotify_icon}/><p>Spotify</p></div></Link>
+            <Link to="/whatsapp"><div className='link-containers'><img className='icons' src={whatsapp_icon}/><p>Whatsapp</p></div></Link>
+            <Link to="/spotify"><div className='link-containers'><img className='icons' src={youtube_icon}/><p>Youtube</p></div></Link>
             <div className='link-containers'>
                 <img className='icons' src={more_icon}/><p>More</p>
             </div>

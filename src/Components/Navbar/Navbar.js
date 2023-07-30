@@ -44,7 +44,7 @@ export default function Navbar() {
     <div>
       <nav id="nav">
         <ul id="list">
-          <li><Link to="/">Home</Link></li>
+          {/* <li><Link to="/">Home</Link></li> */}
           <li><Link to="/projects">Projects</Link></li>
           <li>Images</li>
           <li onClick={handleDotClick} ref={dotRef}>
