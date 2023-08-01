@@ -65,7 +65,7 @@ export default function Navbar() {
           <div id='profile-container'>
                 <img id='profile-image' alt="avatar" src={Profile_pic} />
                 <div id='profile-text-info'>
-                    <p id='abhinavkumar'>Abhinav kumar</p>
+                    <p id='abhinavkumar'>Abhinav Kumar</p>
                     <p id='abhinav-email'>Front-end Web developer</p>
                 </div>
           </div>
@@ -74,7 +74,7 @@ export default function Navbar() {
           </div>
         </div>
         <div id='link-inside'>
-          <a href='https://github.com/Abhinav-not-found'>
+          <a href='https://github.com/Abhinav-not-found' target='blank'>
           <div id='github'>
             <img id='github_icon' src={github_icon}/>
             <div id='github-text-info'>
@@ -83,7 +83,7 @@ export default function Navbar() {
             </div>
           </div>
               </a>
-          <a href='https://www.linkedin.com/in/abhinav-kumar-not-found/'>
+          <a href='https://www.linkedin.com/in/abhinav-kumar-not-found/' target='blank'>
           <div id='linkedin'>
             <img id='linkedin_icon' src={linkedin_icon}/>
             <div id='linkedin-text-info'>

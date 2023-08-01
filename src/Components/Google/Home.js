@@ -10,12 +10,14 @@ import spotify_icon from "./images/spotify_icon.png"
 import more_icon from "./images/more_icon.png"
 import chatgpt_icon from "./images/chatgpt_icon.png"
 import { Link } from 'react-router-dom'
+import Navbar from "../Navbar/Navbar"
 export default function Home() {
 
   const [showSug,setShowSug]= useState(false)
   
   return (
     <div>
+      <Navbar></Navbar>
       <div id='wrapper'>
 
           <img id='google' src={google_img}/>

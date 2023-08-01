@@ -29,7 +29,7 @@ export default function App() {
         <Intro onOkClick={handleOkClick} />
       ) : (
         <div>
-          {showNavbar && <Navbar />}
+           {/* <Navbar /> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Project />} />
