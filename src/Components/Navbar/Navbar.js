@@ -4,6 +4,8 @@ import github_icon from "./Images/github.png"
 import linkedin_icon from "./Images/linkedin.png"
 import Ninedots_icon from './Images/nine-dots.svg';
 import Profile_pic from './Images/Profilepic.jpg';
+import folder_icon from "./Images/folder_icon.png"
+import vscode_icon from "./Images/Vscode_icon.png"
 import { Link } from 'react-router-dom';
 export default function Navbar() {
   const [pro, setPro] = useState(false);
@@ -57,9 +59,26 @@ export default function Navbar() {
           </li>
         </ul>
       </nav>
+
+
+
       <div className={`dot-info ${dot ? 'dot' : ''}`}>
-        Apps
+        <div className='app-wrapper'>
+          <Link to='/myfolder'>
+          <div className='container'>
+            <img id='folder_icon' src={folder_icon} /><p>My folder</p>
+          </div>
+          </Link>
+          <Link to='/vscode'>
+          <div className='container'>
+            <img id='vscode_icon' src={vscode_icon} /><p>vscode</p>
+          </div>
+          </Link>
+        </div>
       </div>
+
+
+
       <div className={`profile-info ${pro ? 'pro' : ''}`}>
         <div id='profile-inside'>
           <div id='profile-container'>

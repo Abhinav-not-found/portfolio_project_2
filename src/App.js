@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link, BrowserRouter as Router } from 'react-router-dom';
 import Intro from './Components/Intro-Animation/Intro';
-import Navbar from './Components/Navbar/Navbar';
+// import Navbar from './Components/Navbar/Navbar';
 import Home from './Components/Google/Home';
 import Project from './Components/Projects/Project';
 import Amazon from './Components/Links/Amazon/Amazon';
@@ -10,6 +10,8 @@ import Spotify from './Components/Links/Spotify/Spotify';
 import Whatsapp from './Components/Links/Whatsapp/Whatsapp';
 import Youtube from './Components/Links/Youtube/Youtube';
 import  Form  from './Components/Form/Form';
+import  My_folder  from './Components/Applications/My_folder/My_folder';
+import  Vscode  from './Components/Applications/Vscode/Vscode';
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
   const [showNavbar, setShowNavbar] = useState(true);
@@ -63,6 +65,10 @@ export default function App() {
           </Routes>
           <Routes>
             <Route path='/form' element={<Form/>} />
+          </Routes>
+          <Routes>
+            <Route path='/myfolder' element={<My_folder/>} />
+            <Route path='/vscode' element={<Vscode/>} />
           </Routes>
         </div>
       )}
