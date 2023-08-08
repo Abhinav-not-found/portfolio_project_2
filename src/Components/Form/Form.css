@@ -1,0 +1,150 @@
+body{
+    overflow: hidden;
+}
+.picture{
+    height: 10rem;
+    width: 10rem;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: 55rem;
+    top: 15rem;
+    cursor: pointer;
+    z-index: 2;
+}
+.profile_photo{
+    height: 10rem;
+    width: 10rem;
+    border: 6px solid #2E05FA;
+    border-radius: 50%;
+}
+
+.picture:active{
+    transform: scale(0.9);
+}
+.background{
+    height: 100em;
+    width: 100em;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0%;
+    left: 50rem;
+    transform: rotate(40deg);
+    border: solid white 5px ;
+    outline: solid black 5px;
+}
+.app-1{
+    height: 3rem;
+    width: 3rem;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: 59rem;
+    top: 27rem;
+    cursor: pointer;
+    z-index: 1;
+    animation-name: movement1;
+    animation-duration: 1s;
+}
+.app-1:hover{
+    transform: translateY(15px);
+    animation-timing-function: linear;
+    background-color: #2E05FA;
+}
+.app-2{
+    height: 3rem;
+    width: 3rem;
+    background-color: transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: 18rem;
+    left: 67rem;
+    cursor: pointer;
+    z-index: 1;
+    animation-name: movement2;
+    animation-duration: 1s;
+    /* animation-timing-function: linear; */
+}
+.app-2:hover{
+    transform: translateX(15px);
+    background-color: #2E05FA;
+    animation-timing-function: linear;  
+}
+.phone_icon{
+    height: 3rem;
+    width: 3rem;
+}
+.phone_icon:hover{
+    transform: scale(1.2);
+}
+.email_icon{
+    height: 3rem;
+    width: 3rem;
+}
+.email_icon:hover{
+    transform: scale(1.2);
+}
+
+    @keyframes movement1{
+        from{
+            opacity: 0;
+            top: 20em;
+
+        }
+        to{
+            left: 59rem;
+            top: 27rem;
+        }
+    }
+    @keyframes movement2{
+        0%{
+            opacity: 0;
+            top: 17rem;
+            left: 55rem;
+        }
+    
+        100%{
+            top: 18rem;
+            left: 67rem;
+        }
+    }
+    .madeby{
+        position: absolute;
+        top: 35.6rem;
+        right: 15rem;
+        height: 100px;
+        width: 100px;
+        width: 100px;
+        color: rgb(157, 157, 157);
+        /* font-family: myfont; */
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    .myname{
+        position: absolute;
+        top: 37rem;
+        right: 16rem;
+        height: 100px;
+        width: 100px;
+        width: 100px;
+        color: white;
+        font-family: myfont;
+        font-size: 50px;
+        white-space: nowrap;
+    }
+    .designation{
+        position: absolute;
+        top: 39.5rem;
+        right: 10rem;
+        height: 100px;
+        width: 100px;
+        width: 100px;
+        color: rgb(157, 157, 157);
+        /* font-family: myfont; */
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    @font-face {
+        font-family: myfont;
+        src: url("./images//RushakThatanBrush.ttf");
+    }

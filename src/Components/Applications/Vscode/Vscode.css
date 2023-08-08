@@ -1,0 +1,18 @@
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-left{
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+}
+#down{
+    height: 15px;
+    width: 15px;
+}
+.main-wrapper{
+    display: flex;
+    gap: 1em;
+}

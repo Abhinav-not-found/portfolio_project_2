@@ -200,6 +200,13 @@ a{
     font-size: 12px;
     text-align: center;
     color: black;
+    /* background-color: red; */
+    padding: 10px;
+    border-radius: 10px;
+}
+.container:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
 }
 #folder_icon{
     height: 50px;
