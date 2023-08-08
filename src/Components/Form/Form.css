@@ -108,43 +108,89 @@ body{
             left: 67rem;
         }
     }
-    .madeby{
-        position: absolute;
-        top: 35.6rem;
-        right: 15rem;
-        height: 100px;
-        width: 100px;
-        width: 100px;
-        color: rgb(157, 157, 157);
-        /* font-family: myfont; */
-        font-size: 15px;
-        white-space: nowrap;
-    }
-    .myname{
-        position: absolute;
-        top: 37rem;
-        right: 16rem;
-        height: 100px;
-        width: 100px;
-        width: 100px;
-        color: white;
-        font-family: myfont;
-        font-size: 50px;
-        white-space: nowrap;
-    }
-    .designation{
-        position: absolute;
-        top: 39.5rem;
-        right: 10rem;
-        height: 100px;
-        width: 100px;
-        width: 100px;
-        color: rgb(157, 157, 157);
-        /* font-family: myfont; */
-        font-size: 15px;
-        white-space: nowrap;
-    }
-    @font-face {
-        font-family: myfont;
-        src: url("./images//RushakThatanBrush.ttf");
-    }
+.madeby{
+    position: absolute;
+    top: 35.6rem;
+    right: 15rem;
+    height: 100px;
+    width: 100px;
+    width: 100px;
+    color: rgb(157, 157, 157);
+    /* font-family: myfont; */
+    font-size: 15px;
+    white-space: nowrap;
+}
+.myname{
+    position: absolute;
+    top: 37rem;
+    right: 16rem;
+    height: 100px;
+    width: 100px;
+    width: 100px;
+    color: white;
+    font-family: myfont;
+    font-size: 50px;
+    white-space: nowrap;
+}
+.designation{
+    position: absolute;
+    top: 39.5rem;
+    right: 10rem;
+    height: 100px;
+    width: 100px;
+    width: 100px;
+    color: rgb(157, 157, 157);
+    /* font-family: myfont; */
+    font-size: 15px;
+    white-space: nowrap;
+}
+@font-face {
+    font-family: myfont;
+    src: url("./images//RushakThatanBrush.ttf");
+}
+.wrapper-form{
+    padding: 6%;
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    gap: 15px;
+}
+.input{
+    border: none;
+    font-size: 25px;
+    opacity: 50%;
+}
+.input:focus{
+    outline: none;
+}
+.text-area{
+    height: 200px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    /* border-left: none;
+    border-right: none;
+    border-top: none; */
+    resize: none;
+}
+.text-area:focus{
+    outline: none;
+}
+.btn-send{
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #2E05FA;
+    color: white;
+    cursor: pointer;
+    margin-left: 85%;
+}
+.contactme{
+    font-family: myfont;
+}

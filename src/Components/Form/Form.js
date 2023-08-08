@@ -20,9 +20,27 @@ export default function Form() {
   return (
     <div>
       <div className='wrapper-form'>
-        <form>
-          <label>Name:</label><br/>
-          <input placeholder='Ex: John Smith'/>
+        <h1 className='contactme'>Contact Me</h1>
+        <form action='https://formspree.io/f/xzblezor' method='POST' className='form'>
+          <div>
+            
+          <label>Name :</label>&nbsp;&nbsp;&nbsp;
+          <input name='Name' className='input' placeholder='Ex: John Smith' required/><br/>
+          </div>
+          <div>
+
+          <label>Email  &nbsp;:</label>&nbsp;&nbsp;&nbsp;
+          <input name='Email' className='input' placeholder='Ex: johnsmith@gmail.com' required/><br/>
+          </div>
+          <div>
+
+          <label>Message:</label><br/>
+          <textarea name='Message' className='text-area' required></textarea>
+          </div>
+          <div>
+            <button className='btn-send'>Send</button>
+          </div>
+          
         </form>
       </div>
 
