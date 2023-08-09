@@ -20,7 +20,7 @@ export default function Form() {
   return (
     <div>
       <div className='wrapper-form'>
-        <h1 className='contactme'>Contact Me</h1>
+        <h1 className='contactme'>CONTACT ME</h1>
         <form action='https://formspree.io/f/xzblezor' method='POST' className='form'>
           <div>
             

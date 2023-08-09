@@ -148,11 +148,16 @@ body{
     font-family: myfont;
     src: url("./images//RushakThatanBrush.ttf");
 }
+@font-face {
+    font-family: myfont2;
+    src: url(./images/LoveIsInTheAirHandwritten-Regular.otf);
+}
 .wrapper-form{
-    padding: 6%;
+    padding: 5%;
     position: absolute;
-    top: 2rem;
+    /* top: 1rem; */
     left: 3rem;
+    
 }
 .form{
     display: flex;
@@ -161,9 +166,11 @@ body{
     gap: 15px;
 }
 .input{
+    width: 80%;
     border: none;
+    border-bottom: 1px solid black;
     font-size: 25px;
-    opacity: 50%;
+    opacity: 30%;
 }
 .input:focus{
     outline: none;
@@ -178,6 +185,7 @@ body{
     border-right: none;
     border-top: none; */
     resize: none;
+    margin-top: 2%;
 }
 .text-area:focus{
     outline: none;
@@ -186,11 +194,17 @@ body{
     padding: 10px 20px;
     font-weight: bold;
     border-radius: 5px;
-    background-color: #2E05FA;
-    color: white;
+    background-color: white;
+    color: black;
     cursor: pointer;
     margin-left: 85%;
 }
+.btn-send:hover{
+    background-color: #2E05FA;
+    color: white;
+}
 .contactme{
-    font-family: myfont;
+    font-family: sans-serif;
+    margin-bottom: 5%;
+    /* font-weight: bolder; */
 }
