@@ -28,7 +28,7 @@ export default function App() {
   return (
     <div>
       {showIntro ? (
-        <Intro onOkClick={handleOkClick} />
+        <Intro id='intro' onOkClick={handleOkClick} />
       ) : (
         <div>
            {/* <Navbar /> */}

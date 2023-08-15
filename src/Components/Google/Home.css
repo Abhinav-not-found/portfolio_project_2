@@ -27,6 +27,7 @@
     height: 15px;
     padding: 0px 15px;
     opacity: 50%;
+    z-index: 1;
 }
 #input{
     width: 500px;
@@ -103,4 +104,23 @@
 }
 .icons:hover{
     cursor: pointer;
+}
+@media (max-width:600px) {
+    #google{
+        height: 150px;
+        width: 350px;
+        margin-bottom: 5%;
+    }
+    #input{
+        width: 200px;
+        height: 15px;
+        font-size: 12px;
+    }
+    #mic-icon{
+        height: 30px;
+        width: 40px;
+    }
+    #links{
+        column-gap: 10px;
+    }
 }

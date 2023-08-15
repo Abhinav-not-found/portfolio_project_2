@@ -1,7 +1,12 @@
+
 .wrapper{
     display: flex;
+    flex-direction: column;
+    /* padding: 1%; */
+}
+.body-section{
+    display: flex;
     flex-direction: row;
-    padding: 1%;
 }
 .small-images{
     height: 120px;
@@ -65,4 +70,28 @@
 .shp-cart{
     height: 12px;
     width: 12px;
+}
+.nav-1-list{
+    background-color: #131921;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 9rem;
+    height: 50px;
+    /* justify-content: space-between; */
+}
+.nav-2-list{
+    background-color: #232F3E;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 4.5rem;
+}
+#amazon_icon{
+    margin-left: 15%;
+    height: -290px;
+    width: 80px;
 }

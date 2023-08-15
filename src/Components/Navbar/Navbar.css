@@ -217,4 +217,36 @@ a{
     width: 50px;    
 }
 /*!-----Application section end-----!*/
-
+/*!-----Media Quieries----*/
+@media (max-width:600px) {
+    .dot-info{
+        height: 550px;
+        width: 300px;
+        z-index: 2;
+    }
+    .app-wrapper{
+        height: 530px;
+    }
+    .profile-info{
+        z-index: 2;
+        width: 320px;
+    }
+    #profile-inside{
+        width: 300px;
+        height: 150px;
+    }
+    #abhinavkumar{
+        /* background-color: red; */
+        width: 200%;
+    }
+    #abhinav-email{
+        width: 150%;
+        font-size: 13px;
+    }
+    #btn-container{
+        margin-top: 5%;
+    }
+    #link-inside{
+        width: 300px;
+    }
+}
