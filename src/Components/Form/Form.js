@@ -24,17 +24,17 @@ export default function Form() {
         <form action='https://formspree.io/f/xzblezor' method='POST' className='form'>
           <div>
             
-          <label>Name :</label>&nbsp;&nbsp;&nbsp;
+          <label className='label'>Name :</label>&nbsp;&nbsp;&nbsp;
           <input name='Name' className='input' placeholder='Ex: John Smith' required/><br/>
           </div>
           <div>
 
-          <label>Email  &nbsp;:</label>&nbsp;&nbsp;&nbsp;
+          <label className='label'>Email  &nbsp;:</label>&nbsp;&nbsp;&nbsp;
           <input name='Email' className='input' placeholder='Ex: johnsmith@gmail.com' required/><br/>
           </div>
           <div>
 
-          <label>Message:</label><br/>
+          <label className='label'>Message:</label><br/>
           <textarea name='Message' className='text-area' required></textarea>
           </div>
           <div>

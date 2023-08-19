@@ -97,3 +97,12 @@ section div div{
     transform: perspective(800px) rotateX(0);
   }
 }
+
+@media (max-width:600px) {
+  .cd-intro-content h1{
+      font-size: 35px;
+  }
+  .cd-btn{
+    padding: 10px 15px;
+  }
+}

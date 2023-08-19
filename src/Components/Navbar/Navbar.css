@@ -221,7 +221,7 @@ a{
 @media (max-width:600px) {
     .dot-info{
         height: 550px;
-        width: 300px;
+        width: 320px;
         z-index: 2;
     }
     .app-wrapper{

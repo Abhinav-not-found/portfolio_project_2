@@ -123,4 +123,8 @@
     #links{
         column-gap: 10px;
     }
+    .suggestions{
+        width: 350px;
+        top: 2em;
+    }
 }
