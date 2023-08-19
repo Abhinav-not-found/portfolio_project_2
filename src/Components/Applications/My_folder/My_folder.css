@@ -1,0 +1,31 @@
+.folder-wrapper{
+    background-color: #28242f;
+    color: white;
+}
+.folder-right{
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.folder-elements{
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    /* gap: 5rem; */
+}
+.folder-elements:hover{
+    background-color: rgb(73, 73, 73);
+    cursor: pointer;
+}
+.folder-elements img{
+    height: 15px;
+    width: auto;
+    margin-right: 5px;
+}
+.f-name{
+    margin-right: 15em;
+}
+.f-file-type{
+    margin-right: 10em;
+}
