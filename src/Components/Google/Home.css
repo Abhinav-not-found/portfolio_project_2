@@ -35,7 +35,7 @@
     border: none;
     outline: none;
     font-size: 18px;
-
+    /* pointer-events: none; */
 }
 
 #input::-webkit-search-cancel-button{
@@ -47,7 +47,7 @@
     color: black;
     cursor: pointer;
 }
-
+/*!------- suggestion -------- */
 .suggestions{
     margin-top:200px ;
     background-color: white;
@@ -66,9 +66,42 @@
 .showsug:hover{
     box-shadow: 0 2px 10px 2px rgba(0, 0, 0, 0.1);
 }
+.sugg-element-1{
+    border-radius: 30px 30px 0 0 ;
+    padding: 2%;
+    display: flex;
+    color: black;
+    gap: 1em;
+    align-items: center;
+}
+
+.sugg-element-1:hover{
+    background-color: rgb(235, 241, 251);
+}
+.sugg-element{
+    /* border-radius: 30px 30px 0 0 ; */
+    padding: 2%;
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    color: black;
+}
+.op{
+    opacity: 50%;
+}
+.sugg-element:hover{
+    background-color: rgb(235, 241, 251);
+}
+#clock-icon{
+    margin-left: 2%;
+    height: 15px;
+    width: 15px;
+    opacity: 50%;
+}
+/*!------- suggestion end -------- */
 
 #mic-icon{
-    width: 35px;
+    /* width: 35px; */
     height: 35px;
     padding: 0px 5px;
 }
@@ -105,6 +138,7 @@
 .icons:hover{
     cursor: pointer;
 }
+
 @media (max-width:600px) {
     #google{
         height: 150px;

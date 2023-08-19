@@ -12,6 +12,7 @@ import Youtube from './Components/Links/Youtube/Youtube';
 import  Form  from './Components/Form/Form';
 import  My_folder  from './Components/Applications/My_folder/My_folder';
 import  Vscode  from './Components/Applications/Vscode/Vscode';
+import Q1 from './Components/Pages/Question1/Q1'
 export default function App() {
   const [showIntro, setShowIntro] = useState(true);
   const [showNavbar, setShowNavbar] = useState(true);
@@ -69,6 +70,9 @@ export default function App() {
           <Routes>
             <Route path='/myfolder' element={<My_folder/>} />
             <Route path='/vscode' element={<Vscode/>} />
+          </Routes>
+          <Routes>
+            <Route path='/page' element={<Q1></Q1>}/>
           </Routes>
         </div>
       )}
